@@ -17,4 +17,3 @@ const NavLink: React.FC<NavLinkProps> = ({ href, title }) => {
 };
 
 export default NavLink;
-NavLink;
