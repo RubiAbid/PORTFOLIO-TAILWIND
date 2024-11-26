@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="lg:py-16 mt-16 ml-16">
+    <section className="lg:py-16 mt-16">
       <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -29,11 +29,12 @@ const HeroSection = () => {
           </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            A passionate full-stack web developer currently exploring new technologies 
-            and creating engaging digital experiences.
+            A passionate full-stack web developer currently exploring 
+            new technologies and creating 
+                   ,engaging digital experiences.
           </p>
 
-          <div className="mr-12">
+          <div>
             <Link
               href="/#contact"
               className="  px-6 inline-block bg-orange-600 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-orange-700 text-white"
